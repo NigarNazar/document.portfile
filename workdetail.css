@@ -109,6 +109,7 @@ padding: 78px 235px;
     padding-bottom: 54px;
 }
 .detail1 h1{
+    text-transform: uppercase;
     font-weight: 700;
     font-size: 34px;
     line-height: 49.94px;
@@ -217,5 +218,9 @@ outline: none;
     }
 .detail2 p{
     font-size: 14px;
+}
+.header-detail img{
+    width: 500px;
+    height: 300px;
 }
 }

@@ -2,6 +2,7 @@
 
 const experienceSection = document.querySelector('.row')
 
+
 window.onload = cards
 
 async function cards(){
@@ -17,13 +18,12 @@ try{
 
    for(let i=0; i<adventure.length; i++){
       experienceSection.innerHTML += `
-      <div class="col-12 col-md-6  circle  ">
-      <div class="card vector" style="width: 22rem;" >
+      <div class="col-12 col-sm-6 circle ">
+      <div class="card casual "  style="width:20rem;" >
               <div class="card-body">
-              <img src="" class="card-img-top" alt="">
              <h5 class="card-title">${adventure[i].barcode}</h5>
              <p class="card-text">${adventure[i].cropBody}</p>
-                 <span>${adventure[i].cropTitle}</span>
+                 <span>${adventure[i].cropTitle} </span>
                </div>
              </div>
        </div>
@@ -56,7 +56,15 @@ faBars.addEventListener('click' , function(){
 })
 
 
+// const viewAll = document.querySelector('.view') 
+// const circle = document.querySelector('.circle')
 
+// viewAll.addEventListener('click' , function (){
+// circle.parentElement.classList.add('aktiv')
+
+// e.preventDefault()
+ 
+// })
 
 
 
