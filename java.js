@@ -18,7 +18,7 @@ try{
    for(let i=0; i<adventure.length; i++){
       experienceSection.innerHTML += `
       <div class="col-12 col-md-6  circle  ">
-      <div class="card vector" style="width: 20rem;" >
+      <div class="card vector" style="width: 22rem;" >
               <div class="card-body">
               <img src="" class="card-img-top" alt="">
              <h5 class="card-title">${adventure[i].barcode}</h5>

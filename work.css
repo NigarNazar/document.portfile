@@ -10,13 +10,40 @@ body{
     padding-top: 26px;
 }
 .nav a{
-    text-decoration: none;
-    padding-right: 20px;
-font-weight: 500;
-font-size: 20px;
-line-height:29.38px;
+    display: block;
+    position: relative;
+    text-transform: uppercase;
+    padding:5px 20px;
+text-align: center;
+text-decoration: none;
 color: #000;
+margin-right:16.5px;
+margin-left:16.5px;
+font-size: 20px;
+font-weight:500 ;
+;
+}
+.nav a:hover{
+    color: #fff;
+}
+.nav a::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 10px;
+    width: 100%;
+    height: 100%;
+    background:#666;
+    transform:scale(0);
+    transition: .5s ease;
+    border-radius: 25px;
+    z-index: -1;
+}
 
+.nav a:hover::after{
+    transform:scale(1);
+   
 }
 .nav .nav-work{
     color: rgba(255, 100, 100, 1);
@@ -62,7 +89,7 @@ color: #000;
  .fa-bars{
     position: absolute;
     align-content: end;
-    top: 10px;
+    top: 15px;
      right:20px;
      font-weight: 700;
      font-size: 30px;
@@ -77,21 +104,12 @@ color: #000;
     padding-right:235px ;
     padding-top: 90px;
 }
-.card-work1{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    border-bottom: 1px solid rgba(224, 224, 224, 1);
-    padding-bottom:15px;
+.header-work h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
 }
-.card-work2{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    border-bottom: 1px solid rgba(224, 224, 224, 1);
-    padding-bottom:15px;
-}
-.card-work3{
+.card-work3 , .card-work1 , .card-work2 , .card-work4{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -101,7 +119,7 @@ color: #000;
 .left-card{
     padding-top: 22px;
     display: flex;
-    flex-basis:28%;
+    flex-basis:20%;
 }
 .right-card{
     display: flex;
@@ -160,8 +178,38 @@ padding-left: 36px;
     color: rgba(33, 36, 61, 1);
 
 }
+@media(max-width:1763px) {
+    .right-card{
+        padding-left: 20px;
+    }
+}
+@media(max-width:1400px){
+    .header-work{
+        padding: 100px;
+    }
+    .right-card{
+        padding-left: 20px;
+    }
+}
+@media(max-width:1200px){
+.header-work{
+    padding: 80px;
+}
+.right-card {
+    padding-left: 20px;
+}
+}
+@media(max-width:1000px){
+    .header-work{
+        padding: 40px;
+    }
+    .right-card{
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+}
 @media(max-width:768px){
-    nav a{
+    .nav a{
         display: none;
     }
     .fa-bars{
