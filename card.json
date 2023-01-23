@@ -3,7 +3,7 @@
 { "barcode":"CASCADING STYLE SHEETS",
   "cropBody": "2021   |  22 JULY",
   "cropTitle":"Cascading Style Sheets (CSS) is a programming design language that includes all relevant information relating to the display of a webpage. CSS defines the style and formatting of a website or page, including the layout, colors, fonts, padding (the space around each element) and more. ",
-  "photo":"local_url()"
+  "photo":"https://res.cloudinary.com/dmpxuyhmj/image/upload/v1674396298/cld-sample-4.jpg"
  
 },
 
@@ -13,8 +13,9 @@
 {
   "barcode":"JAVASCRIPT",
   "cropBody": "2021   |  22 JULY ",
-  "cropTitle":"The World Wide Web as we know it looks nothing like the early days of grey boxes and walls of text. Nowadays, we can’t imagine browsing the web without interactive websites, clickable buttons, and online video games. The ways we interact with the internet have radically changed over the years and, for the most part, it’s all down to JavaScript."
+  "cropTitle":"The World Wide Web as we know it looks nothing like the early days of grey boxes and walls of text. Nowadays, we can’t imagine browsing the web without interactive websites, clickable buttons, and online video games. The ways we interact with the internet have radically changed over the years and, for the most part, it’s all down to JavaScript.",
 
+"photo":"https://res.cloudinary.com/dmpxuyhmj/image/upload/v1674396298/cld-sample-4.jpg"
 }
 
 ]

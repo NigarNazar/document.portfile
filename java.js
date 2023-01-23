@@ -1,7 +1,8 @@
 
+ 
 
-const experienceSection = document.querySelector('.row')
-
+// const experienceSection = document.querySelector('.row')
+const experienceSection = document.getElementsByClassName('row')[0]
 
 window.onload = cards
 
@@ -15,10 +16,10 @@ try{
 
    const adventure = await unvanType.json()
 
-
+console.table(adventure)
    for(let i=0; i<adventure.length; i++){
       experienceSection.innerHTML += `
-      <div class="col-12 col-sm-6 circle ">
+      <div class="col-12 col-md-6 circle ">
       <div class="card casual "  style="width:20rem;" >
               <div class="card-body">
              <h5 class="card-title">${adventure[i].barcode}</h5>
@@ -55,7 +56,7 @@ faBars.addEventListener('click' , function(){
     
 })
 
-
+AOS.init();
 // const viewAll = document.querySelector('.view') 
 // const circle = document.querySelector('.circle')
 

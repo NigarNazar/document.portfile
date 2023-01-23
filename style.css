@@ -140,13 +140,13 @@ color: rgba(255, 255, 255, 1);
     flex: 0.4 ;
 }
 .right-side > img{
-    width: 200px;
+    width: 250px;
     height: 250px;
-    /* border-radius:10%; */
+    border-radius:50%;
 }
 .section-post{
     margin-top: 78px;
-    background: rgba(237, 247, 250, 1);
+    background:linear-gradient(#7F7FD5,#86A8E7,#91EAE4);
     flex-wrap: wrap;
     padding-right: 148.5px ;
     padding-left: 148.5px ;
@@ -158,16 +158,17 @@ color: rgba(255, 255, 255, 1);
     align-items: center ;
 }
 .post-view h1{
-    font-size: 22px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 60px;
+    color: #fff;
 }
 .post-view a{
     text-decoration: none;
-    font-size:16px ;
+    font-size:20px ;
     font-weight: 400;
     line-height: 24px;
-    color: rgba(0, 168, 204, 1);
+    color:#fff;
 }
 .card-post{
     display: flex;
